@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    margin: 0 auto;
+}
+
+header {
+    margin: 80 auto;
+
+}
+
+.conteudo .dev h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.conteudo .front h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    font-weight: bolder;
+}
+
+.conteudo .p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    position: relative;
+    right: 120px;
+
+}
+
+.conteudo {
+    text-align: center;
+    margin: 200px  auto;
+}
+
+
+span {
+    color: rgb(0, 60, 255);
+}
+
+
+a {
+    text-decoration: none;
+}
+
