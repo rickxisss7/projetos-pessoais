@@ -3,45 +3,46 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 
 body {
     background-color: rgb(0, 0, 0);
     color: antiquewhite;
-    margin: 0 auto;
+   
 }
 
 header {
-    margin: 80 auto;
+    margin: 0 auto;
 
 }
 
 .conteudo .dev h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 52px;
     font-weight: bolder;
 
 }
 
 .conteudo .front h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 47px;
+    font-size: 38px;
     font-weight: bolder;
 }
 
 .conteudo .p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
     position: relative;
-    right: 120px;
+    right: 80px;
 
 }
 
 .conteudo {
     text-align: center;
-    margin: 200px  auto;
+    transform: translateY(250px);
 }
 
 
@@ -52,5 +53,80 @@ span {
 
 a {
     text-decoration: none;
+}
+
+/* conteudo3 */
+
+.conteudo3 {
+text-align: center;
+transform: translateY(380px);
+
+}
+
+.projeto {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+margin-top: 158px;
+margin-bottom: 50px;
+}
+
+
+.conteudo3 img {
+margin-bottom: 160px;
+}
+
+/* conteudo4 */
+
+.conteudo4 {
+margin: 400px auto;
+}
+.conteudo4 h1 {
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+
+}
+
+.conteudo4 h2 {
+color: black;
+margin-bottom: 0px;
+font-family: "Roboto Slab", serif;
+
+}
+
+.conteudo4 p {
+text-align: center;
+margin: 0 15px;
+font-family: "Open Sans", sans-serif;
+font-size: 15px;
+}
+
+.conteudo4 .cs {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteudo4 img {
+margin: 3px auto;
+}
+
+.conteudo4 .cs {
+background-color: gray;
+border-radius: 20px;
+width: 300px;
+height: 450px;
+margin: 80px auto;
+box-shadow: 1px 1px 20px 10px  rgba(0, 0, 0, 0.61);
+cursor: pointer;
+transition: 0.2s;
+}
+
+.conteudo4 .cs:hover{
+width: 350px;
+height: 500px;
+color: rgb(151, 151, 151);
+background-color: transparent;
 }
 
