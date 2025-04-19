@@ -1,0 +1,15 @@
+.flutuando {
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    animation: flutuar 3s ease-in-out infinite;
+  }
+  
+  @keyframes flutuar {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }

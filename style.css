@@ -40,6 +40,7 @@ header {
 
 }
 
+
 .conteudo {
     text-align: center;
     transform: translateY(250px);
@@ -63,9 +64,43 @@ transform: translateY(380px);
 
 }
 
+#imgg1  {
+background-image: linear-gradient(to bottom,black, rgb(3, 3, 3),rgb(56, 56, 56));
+border-radius: 10px;
+width: 330px;
+height: 200px;
+padding: 10px;
+margin: 0 auto;
+}
+
+#imgg2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 330px;
+    height: 200px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+#imgg3 {
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+    width: 330px;
+    height: 200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.conteudo3 img {
+position: relative;
+top: 0px;
+right: 10px;
+
+}
+
 .projeto {
 font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
+font-size: 29px;
 margin-top: 158px;
 margin-bottom: 50px;
 }
@@ -78,14 +113,13 @@ margin-bottom: 160px;
 /* conteudo4 */
 
 .conteudo4 {
-margin: 400px auto;
+margin: 450px auto;
 }
 .conteudo4 h1 {
 position: relative;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 35px;
-
+font-size: 42px;
 }
 
 .conteudo4 h2 {
@@ -123,10 +157,19 @@ cursor: pointer;
 transition: 0.2s;
 }
 
+/* hovers */
 .conteudo4 .cs:hover{
 width: 350px;
 height: 500px;
 color: rgb(151, 151, 151);
 background-color: transparent;
+
 }
 
+
+.front img:hover {
+background-color: rgb(0, 60, 255);
+border-radius: 20px;
+padding: 5px;
+transition: 0.5s;
+}
